@@ -6,4 +6,6 @@ Esse processo deve ser repetido até que todas as 8 atividades do Trello estejam
 
 Ler e colocar a Sepc para IA Fazer
 
+Arquivo SPEC está em SPECFront.md
+
 Responsável = Felipe

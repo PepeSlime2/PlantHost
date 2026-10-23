@@ -1,3 +1,3 @@
-Ler e Colocar a Spec para rodar na IA
+Ler e Colocar a SPEC para rodar na IA está em SPEC_Back/SPECB1.md e SPECB2.md
 
 Responsável = Beatriz
