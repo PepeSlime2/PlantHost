@@ -1,0 +1,3 @@
+Ler e colocar a Spec para rodar na IA
+
+Responsável = Pedro

@@ -1,1 +1,2 @@
 Inicialiando repo no git para membros
+Criando estrutura de Pasta por membro

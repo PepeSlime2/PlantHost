@@ -1,0 +1,9 @@
+No front-end, preciso que o conteúdo compactado em ZIP, disponível no grupo **“Projeto Integrador”**, seja implementado gradualmente, seguindo a divisão das tarefas nos **8 cards do Trello**.
+
+Cada atividade deve ser executada individualmente, seguindo este fluxo: implementar a funcionalidade correspondente (por exemplo, criar a tela inicial), adicionar os arquivos na pasta `front`, realizar o commit no Git e, em seguida, iniciar a próxima tarefa.
+
+Esse processo deve ser repetido até que todas as 8 atividades do Trello estejam concluídas, mantendo cada implementação organizada e vinculada à sua respectiva tarefa.
+
+Ler e colocar a Sepc para IA Fazer
+
+Responsável = Felipe
