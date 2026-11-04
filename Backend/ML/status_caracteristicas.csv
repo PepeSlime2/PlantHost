@@ -1,0 +1,477 @@
+species_id,field,value_status,source,source_url,consulted_at
+PH-001,growth_habit,nao_disponivel_na_fonte,,,2026-11-04
+PH-001,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-001,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-001,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-001,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-001,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-001,habitat_distribution,nao_disponivel_na_fonte,,,2026-11-04
+PH-002,growth_habit,disponivel,GBIF:361226550 (native range); GBIF:439644085 (habit); Reflora:991,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB991,2026-11-04
+PH-002,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-002,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-002,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-002,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-002,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-002,habitat_distribution,disponivel,GBIF:361226550 (native range); GBIF:439644085 (habit); Reflora:991,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB991,2026-11-04
+PH-003,growth_habit,disponivel,GBIF:361226247 (native range); GBIF:464165283 (eunis habitat); Reflora:101473,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB101473,2026-11-04
+PH-003,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-003,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-003,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-003,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-003,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-003,habitat_distribution,disponivel,GBIF:361226247 (native range); GBIF:464165283 (eunis habitat); Reflora:101473,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB101473,2026-11-04
+PH-004,growth_habit,disponivel,GBIF:385150680 (native range); GBIF:385150681 (life form); GBIF:439638269 (habit); Reflora:14697,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB14697,2026-11-04
+PH-004,life_cycle,disponivel,GBIF:385150680 (native range); GBIF:385150681 (life form); GBIF:439638269 (habit); Reflora:14697,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB14697,2026-11-04
+PH-004,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-004,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-004,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-004,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-004,habitat_distribution,disponivel,GBIF:385150680 (native range); GBIF:385150681 (life form); GBIF:439638269 (habit); Reflora:14697,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB14697,2026-11-04
+PH-005,growth_habit,disponivel,GBIF:361224165 (native range); GBIF:439642596 (habit); Reflora:13145,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB13145,2026-11-04
+PH-005,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-005,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-005,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-005,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-005,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-005,habitat_distribution,disponivel,GBIF:361224165 (native range); GBIF:439642596 (habit); Reflora:13145,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB13145,2026-11-04
+PH-006,growth_habit,disponivel,GBIF:464783301 (habit); Reflora:115339,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB115339,2026-11-04
+PH-006,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-006,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-006,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-006,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-006,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-006,habitat_distribution,disponivel,GBIF:464783301 (habit); Reflora:115339,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB115339,2026-11-04
+PH-007,growth_habit,disponivel,GBIF:361226484 (native range); GBIF:439636477 (habit); Reflora:103232,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB103232,2026-11-04
+PH-007,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-007,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-007,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-007,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-007,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-007,habitat_distribution,disponivel,GBIF:361226484 (native range); GBIF:439636477 (habit); Reflora:103232,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB103232,2026-11-04
+PH-008,growth_habit,disponivel,GBIF:439634422 (habit); GBIF:464058283 (distribution),,2026-11-04
+PH-008,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-008,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-008,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-008,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-008,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-008,habitat_distribution,disponivel,GBIF:439634422 (habit); GBIF:464058283 (distribution),,2026-11-04
+PH-009,growth_habit,disponivel,GBIF:463102407 (distribution); Reflora:9124,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB9124,2026-11-04
+PH-009,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-009,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-009,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-009,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-009,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-009,habitat_distribution,disponivel,GBIF:463102407 (distribution); Reflora:9124,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB9124,2026-11-04
+PH-010,growth_habit,disponivel,GBIF:463102432 (distribution); Reflora:9148,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB9148,2026-11-04
+PH-010,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-010,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-010,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-010,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-010,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-010,habitat_distribution,disponivel,GBIF:463102432 (distribution); Reflora:9148,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB9148,2026-11-04
+PH-011,growth_habit,disponivel,GBIF:361225290 (native range); GBIF:439641560 (habit); Reflora:84196,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB84196,2026-11-04
+PH-011,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-011,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-011,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-011,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-011,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-011,habitat_distribution,disponivel,GBIF:361225290 (native range); GBIF:439641560 (habit); Reflora:84196,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB84196,2026-11-04
+PH-012,growth_habit,nao_disponivel_na_fonte,,,2026-11-04
+PH-012,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-012,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-012,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-012,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-012,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-012,habitat_distribution,nao_disponivel_na_fonte,,,2026-11-04
+PH-013,growth_habit,nao_disponivel_na_fonte,,,2026-11-04
+PH-013,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-013,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-013,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-013,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-013,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-013,habitat_distribution,nao_disponivel_na_fonte,,,2026-11-04
+PH-014,growth_habit,disponivel,Reflora:14236,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB14236,2026-11-04
+PH-014,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-014,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-014,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-014,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-014,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-014,habitat_distribution,disponivel,Reflora:14236,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB14236,2026-11-04
+PH-015,growth_habit,nao_disponivel_na_fonte,,,2026-11-04
+PH-015,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-015,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-015,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-015,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-015,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-015,habitat_distribution,nao_disponivel_na_fonte,,,2026-11-04
+PH-016,growth_habit,disponivel,GBIF:361225542 (native range); GBIF:464136342 (eunis habitat); Reflora:9234,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB9234,2026-11-04
+PH-016,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-016,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-016,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-016,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-016,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-016,habitat_distribution,disponivel,GBIF:361225542 (native range); GBIF:464136342 (eunis habitat); Reflora:9234,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB9234,2026-11-04
+PH-017,growth_habit,disponivel,GBIF:464001167 (distribution); Reflora:7095,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB7095,2026-11-04
+PH-017,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-017,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-017,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-017,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-017,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-017,habitat_distribution,disponivel,GBIF:464001167 (distribution); Reflora:7095,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB7095,2026-11-04
+PH-018,growth_habit,nao_disponivel_na_fonte,,,2026-11-04
+PH-018,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-018,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-018,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-018,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-018,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-018,habitat_distribution,nao_disponivel_na_fonte,,,2026-11-04
+PH-019,growth_habit,disponivel,GBIF:439634260 (habit),,2026-11-04
+PH-019,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-019,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-019,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-019,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-019,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-019,habitat_distribution,nao_disponivel_na_fonte,,,2026-11-04
+PH-020,growth_habit,disponivel,GBIF:385150652 (life form); GBIF:385150653 (native range); Reflora:9212,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB9212,2026-11-04
+PH-020,life_cycle,disponivel,GBIF:385150652 (life form); GBIF:385150653 (native range); Reflora:9212,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB9212,2026-11-04
+PH-020,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-020,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-020,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-020,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-020,habitat_distribution,disponivel,GBIF:385150652 (life form); GBIF:385150653 (native range); Reflora:9212,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB9212,2026-11-04
+PH-021,growth_habit,disponivel,Reflora:9213,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB9213,2026-11-04
+PH-021,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-021,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-021,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-021,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-021,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-021,habitat_distribution,disponivel,Reflora:9213,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB9213,2026-11-04
+PH-022,growth_habit,disponivel,GBIF:463993169 (distribution); Reflora:19522,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB19522,2026-11-04
+PH-022,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-022,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-022,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-022,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-022,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-022,habitat_distribution,disponivel,GBIF:463993169 (distribution); Reflora:19522,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB19522,2026-11-04
+PH-023,growth_habit,disponivel,GBIF:385150860 (native range); GBIF:385150861 (life form); Reflora:136634,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB136634,2026-11-04
+PH-023,life_cycle,disponivel,GBIF:385150860 (native range); GBIF:385150861 (life form); Reflora:136634,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB136634,2026-11-04
+PH-023,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-023,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-023,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-023,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-023,habitat_distribution,disponivel,GBIF:385150860 (native range); GBIF:385150861 (life form); Reflora:136634,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB136634,2026-11-04
+PH-024,growth_habit,disponivel,Reflora:25774,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB25774,2026-11-04
+PH-024,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-024,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-024,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-024,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-024,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-024,habitat_distribution,disponivel,Reflora:25774,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB25774,2026-11-04
+PH-025,growth_habit,disponivel,Reflora:17540,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB17540,2026-11-04
+PH-025,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-025,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-025,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-025,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-025,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-025,habitat_distribution,disponivel,Reflora:17540,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB17540,2026-11-04
+PH-026,growth_habit,nao_disponivel_na_fonte,,,2026-11-04
+PH-026,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-026,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-026,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-026,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-026,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-026,habitat_distribution,nao_disponivel_na_fonte,,,2026-11-04
+PH-027,growth_habit,disponivel,GBIF:385150634 (native range); GBIF:385150635 (life form); GBIF:439644440 (habit); Reflora:14725,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB14725,2026-11-04
+PH-027,life_cycle,disponivel,GBIF:385150634 (native range); GBIF:385150635 (life form); GBIF:439644440 (habit); Reflora:14725,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB14725,2026-11-04
+PH-027,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-027,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-027,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-027,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-027,habitat_distribution,disponivel,GBIF:385150634 (native range); GBIF:385150635 (life form); GBIF:439644440 (habit); Reflora:14725,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB14725,2026-11-04
+PH-028,growth_habit,nao_disponivel_na_fonte,,,2026-11-04
+PH-028,life_cycle,disponivel,GBIF:385150754 (native range); GBIF:385150755 (life form); Reflora:,,2026-11-04
+PH-028,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-028,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-028,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-028,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-028,habitat_distribution,disponivel,GBIF:385150754 (native range); GBIF:385150755 (life form); Reflora:,,2026-11-04
+PH-029,growth_habit,disponivel,GBIF:361226136 (native range); GBIF:385151175 (life form); GBIF:464784105 (habit); Reflora:14883,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB14883,2026-11-04
+PH-029,life_cycle,disponivel,GBIF:361226136 (native range); GBIF:385151175 (life form); GBIF:464784105 (habit); Reflora:14883,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB14883,2026-11-04
+PH-029,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-029,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-029,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-029,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-029,habitat_distribution,disponivel,GBIF:361226136 (native range); GBIF:385151175 (life form); GBIF:464784105 (habit); Reflora:14883,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB14883,2026-11-04
+PH-030,growth_habit,nao_disponivel_na_fonte,,,2026-11-04
+PH-030,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-030,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-030,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-030,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-030,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-030,habitat_distribution,nao_disponivel_na_fonte,,,2026-11-04
+PH-031,growth_habit,nao_disponivel_na_fonte,,,2026-11-04
+PH-031,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-031,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-031,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-031,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-031,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-031,habitat_distribution,nao_disponivel_na_fonte,,,2026-11-04
+PH-032,growth_habit,nao_disponivel_na_fonte,,,2026-11-04
+PH-032,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-032,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-032,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-032,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-032,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-032,habitat_distribution,nao_disponivel_na_fonte,,,2026-11-04
+PH-033,growth_habit,disponivel,Reflora:8272,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB8272,2026-11-04
+PH-033,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-033,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-033,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-033,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-033,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-033,habitat_distribution,disponivel,Reflora:8272,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB8272,2026-11-04
+PH-034,growth_habit,nao_disponivel_na_fonte,,,2026-11-04
+PH-034,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-034,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-034,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-034,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-034,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-034,habitat_distribution,nao_disponivel_na_fonte,,,2026-11-04
+PH-035,growth_habit,nao_disponivel_na_fonte,,,2026-11-04
+PH-035,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-035,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-035,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-035,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-035,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-035,habitat_distribution,nao_disponivel_na_fonte,,,2026-11-04
+PH-036,growth_habit,nao_disponivel_na_fonte,,,2026-11-04
+PH-036,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-036,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-036,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-036,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-036,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-036,habitat_distribution,nao_disponivel_na_fonte,,,2026-11-04
+PH-037,growth_habit,nao_disponivel_na_fonte,,,2026-11-04
+PH-037,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-037,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-037,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-037,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-037,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-037,habitat_distribution,nao_disponivel_na_fonte,,,2026-11-04
+PH-038,growth_habit,disponivel,GBIF:385151348 (native range); GBIF:385151349 (life form); GBIF:439642402 (habit); Reflora:128310,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB128310,2026-11-04
+PH-038,life_cycle,disponivel,GBIF:385151348 (native range); GBIF:385151349 (life form); GBIF:439642402 (habit); Reflora:128310,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB128310,2026-11-04
+PH-038,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-038,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-038,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-038,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-038,habitat_distribution,disponivel,GBIF:385151348 (native range); GBIF:385151349 (life form); GBIF:439642402 (habit); Reflora:128310,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB128310,2026-11-04
+PH-039,growth_habit,nao_disponivel_na_fonte,,,2026-11-04
+PH-039,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-039,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-039,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-039,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-039,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-039,habitat_distribution,nao_disponivel_na_fonte,,,2026-11-04
+PH-040,growth_habit,nao_disponivel_na_fonte,,,2026-11-04
+PH-040,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-040,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-040,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-040,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-040,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-040,habitat_distribution,nao_disponivel_na_fonte,,,2026-11-04
+PH-041,growth_habit,disponivel,GBIF:464015047 (distribution); Reflora:4057,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB4057,2026-11-04
+PH-041,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-041,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-041,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-041,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-041,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-041,habitat_distribution,disponivel,GBIF:464015047 (distribution); Reflora:4057,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB4057,2026-11-04
+PH-042,growth_habit,nao_disponivel_na_fonte,,,2026-11-04
+PH-042,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-042,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-042,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-042,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-042,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-042,habitat_distribution,nao_disponivel_na_fonte,,,2026-11-04
+PH-043,growth_habit,disponivel,GBIF:385150872 (native range); GBIF:385150873 (life form); Reflora:16105,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB16105,2026-11-04
+PH-043,life_cycle,disponivel,GBIF:385150872 (native range); GBIF:385150873 (life form); Reflora:16105,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB16105,2026-11-04
+PH-043,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-043,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-043,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-043,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-043,habitat_distribution,disponivel,GBIF:385150872 (native range); GBIF:385150873 (life form); Reflora:16105,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB16105,2026-11-04
+PH-044,growth_habit,nao_disponivel_na_fonte,,,2026-11-04
+PH-044,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-044,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-044,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-044,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-044,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-044,habitat_distribution,nao_disponivel_na_fonte,,,2026-11-04
+PH-045,growth_habit,disponivel,GBIF:460071144 (distribution); GBIF:464163088 (eunis habitat); Reflora:16910,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB16910,2026-11-04
+PH-045,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-045,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-045,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-045,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-045,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-045,habitat_distribution,disponivel,GBIF:460071144 (distribution); GBIF:464163088 (eunis habitat); Reflora:16910,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB16910,2026-11-04
+PH-046,growth_habit,nao_disponivel_na_fonte,,,2026-11-04
+PH-046,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-046,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-046,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-046,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-046,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-046,habitat_distribution,nao_disponivel_na_fonte,,,2026-11-04
+PH-047,growth_habit,nao_disponivel_na_fonte,,,2026-11-04
+PH-047,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-047,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-047,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-047,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-047,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-047,habitat_distribution,nao_disponivel_na_fonte,,,2026-11-04
+PH-048,growth_habit,nao_disponivel_na_fonte,,,2026-11-04
+PH-048,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-048,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-048,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-048,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-048,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-048,habitat_distribution,disponivel,GBIF:463937286 (distribution),,2026-11-04
+PH-049,growth_habit,nao_disponivel_na_fonte,,,2026-11-04
+PH-049,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-049,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-049,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-049,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-049,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-049,habitat_distribution,nao_disponivel_na_fonte,,,2026-11-04
+PH-050,growth_habit,disponivel,GBIF:361223598 (native range); GBIF:439637880 (habit); Reflora:617315,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB617315,2026-11-04
+PH-050,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-050,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-050,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-050,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-050,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-050,habitat_distribution,disponivel,GBIF:361223598 (native range); GBIF:439637880 (habit); Reflora:617315,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB617315,2026-11-04
+PH-051,growth_habit,disponivel,GBIF:417860761 (native range); GBIF:464135659 (eunis habitat); Reflora:84941,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB84941,2026-11-04
+PH-051,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-051,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-051,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-051,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-051,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-051,habitat_distribution,disponivel,GBIF:417860761 (native range); GBIF:464135659 (eunis habitat); Reflora:84941,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB84941,2026-11-04
+PH-052,growth_habit,disponivel,GBIF:361226401 (native range); GBIF:385151265 (life form); GBIF:439644451 (habit); Reflora:594049,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB594049,2026-11-04
+PH-052,life_cycle,disponivel,GBIF:361226401 (native range); GBIF:385151265 (life form); GBIF:439644451 (habit); Reflora:594049,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB594049,2026-11-04
+PH-052,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-052,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-052,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-052,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-052,habitat_distribution,disponivel,GBIF:361226401 (native range); GBIF:385151265 (life form); GBIF:439644451 (habit); Reflora:594049,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB594049,2026-11-04
+PH-053,growth_habit,disponivel,GBIF:385150654 (native range); GBIF:385150655 (life form); Reflora:16991,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB16991,2026-11-04
+PH-053,life_cycle,disponivel,GBIF:385150654 (native range); GBIF:385150655 (life form); Reflora:16991,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB16991,2026-11-04
+PH-053,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-053,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-053,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-053,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-053,habitat_distribution,disponivel,GBIF:385150654 (native range); GBIF:385150655 (life form); Reflora:16991,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB16991,2026-11-04
+PH-054,growth_habit,disponivel,GBIF:361224321 (native range); GBIF:385151284 (life form); GBIF:439639135 (habit); Reflora:594694,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB594694,2026-11-04
+PH-054,life_cycle,disponivel,GBIF:361224321 (native range); GBIF:385151284 (life form); GBIF:439639135 (habit); Reflora:594694,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB594694,2026-11-04
+PH-054,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-054,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-054,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-054,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-054,habitat_distribution,disponivel,GBIF:361224321 (native range); GBIF:385151284 (life form); GBIF:439639135 (habit); Reflora:594694,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB594694,2026-11-04
+PH-055,growth_habit,disponivel,GBIF:361226306 (native range); GBIF:439641043 (habit); Reflora:136185,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB136185,2026-11-04
+PH-055,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-055,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-055,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-055,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-055,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-055,habitat_distribution,disponivel,GBIF:361226306 (native range); GBIF:439641043 (habit); Reflora:136185,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB136185,2026-11-04
+PH-056,growth_habit,disponivel,GBIF:464002663 (distribution); Reflora:83865,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB83865,2026-11-04
+PH-056,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-056,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-056,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-056,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-056,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-056,habitat_distribution,disponivel,GBIF:464002663 (distribution); Reflora:83865,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB83865,2026-11-04
+PH-057,growth_habit,nao_disponivel_na_fonte,,,2026-11-04
+PH-057,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-057,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-057,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-057,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-057,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-057,habitat_distribution,nao_disponivel_na_fonte,,,2026-11-04
+PH-058,growth_habit,disponivel,GBIF:385150664 (native range); GBIF:385150665 (life form); Reflora:23050,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB23050,2026-11-04
+PH-058,life_cycle,disponivel,GBIF:385150664 (native range); GBIF:385150665 (life form); Reflora:23050,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB23050,2026-11-04
+PH-058,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-058,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-058,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-058,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-058,habitat_distribution,disponivel,GBIF:385150664 (native range); GBIF:385150665 (life form); Reflora:23050,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB23050,2026-11-04
+PH-059,growth_habit,disponivel,GBIF:385150666 (native range); GBIF:385150667 (life form); Reflora:22405,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB22405,2026-11-04
+PH-059,life_cycle,disponivel,GBIF:385150666 (native range); GBIF:385150667 (life form); Reflora:22405,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB22405,2026-11-04
+PH-059,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-059,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-059,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-059,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-059,habitat_distribution,disponivel,GBIF:385150666 (native range); GBIF:385150667 (life form); Reflora:22405,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB22405,2026-11-04
+PH-060,growth_habit,disponivel,GBIF:464010164 (distribution); Reflora:82117,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB82117,2026-11-04
+PH-060,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-060,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-060,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-060,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-060,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-060,habitat_distribution,disponivel,GBIF:464010164 (distribution); Reflora:82117,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB82117,2026-11-04
+PH-061,growth_habit,disponivel,GBIF:439634071 (habit),,2026-11-04
+PH-061,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-061,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-061,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-061,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-061,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-061,habitat_distribution,nao_disponivel_na_fonte,,,2026-11-04
+PH-062,growth_habit,nao_disponivel_na_fonte,,,2026-11-04
+PH-062,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-062,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-062,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-062,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-062,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-062,habitat_distribution,nao_disponivel_na_fonte,,,2026-11-04
+PH-063,growth_habit,disponivel,GBIF:361224793 (native range); GBIF:385150790 (life form); GBIF:439639879 (habit); Reflora:137526,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB137526,2026-11-04
+PH-063,life_cycle,disponivel,GBIF:361224793 (native range); GBIF:385150790 (life form); GBIF:439639879 (habit); Reflora:137526,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB137526,2026-11-04
+PH-063,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-063,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-063,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-063,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-063,habitat_distribution,disponivel,GBIF:361224793 (native range); GBIF:385150790 (life form); GBIF:439639879 (habit); Reflora:137526,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB137526,2026-11-04
+PH-064,growth_habit,nao_disponivel_na_fonte,,,2026-11-04
+PH-064,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-064,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-064,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-064,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-064,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-064,habitat_distribution,disponivel,GBIF:463538040 (distribution),,2026-11-04
+PH-065,growth_habit,disponivel,GBIF:385151372 (native range); GBIF:385151373 (life form); Reflora:611510,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB611510,2026-11-04
+PH-065,life_cycle,disponivel,GBIF:385151372 (native range); GBIF:385151373 (life form); Reflora:611510,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB611510,2026-11-04
+PH-065,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-065,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-065,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-065,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-065,habitat_distribution,disponivel,GBIF:385151372 (native range); GBIF:385151373 (life form); Reflora:611510,http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB611510,2026-11-04
+PH-066,growth_habit,disponivel,GBIF:439634829 (habit),,2026-11-04
+PH-066,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-066,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-066,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-066,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-066,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-066,habitat_distribution,nao_disponivel_na_fonte,,,2026-11-04
+PH-067,growth_habit,disponivel,GBIF:439634935 (habit); GBIF:460069142 (distribution),,2026-11-04
+PH-067,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-067,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-067,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-067,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-067,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-067,habitat_distribution,disponivel,GBIF:439634935 (habit); GBIF:460069142 (distribution),,2026-11-04
+PH-068,growth_habit,disponivel,GBIF:439635105 (habit),,2026-11-04
+PH-068,life_cycle,nao_disponivel_na_fonte,,,2026-11-04
+PH-068,height,nao_disponivel_na_fonte,,,2026-11-04
+PH-068,leaf_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-068,flower_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-068,fruit_seed_traits,nao_disponivel_na_fonte,,,2026-11-04
+PH-068,habitat_distribution,nao_disponivel_na_fonte,,,2026-11-04
