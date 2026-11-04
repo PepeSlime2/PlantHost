@@ -1,0 +1,60 @@
+species_id,scientific_name,image_count,occurrence_count,licensed_count,identification_validated_count,quality_evaluated_count,training_eligible_count,status
+PH-001,Pityrocarpa obliqua (Pers.) Brenan,66,20,66,0,0,0,revisao_necessaria
+PH-002,Ruta graveolens L.,44,20,44,0,0,0,revisao_necessaria
+PH-003,Amaranthus deflexus L.,38,20,38,0,0,0,revisao_necessaria
+PH-004,Physalis angulata L.,38,20,38,0,0,0,revisao_necessaria
+PH-005,Cynodon dactylon (L.) Pers.,45,20,45,0,0,0,revisao_necessaria
+PH-006,Desmodium incanum (Sw.) DC.,33,20,33,0,0,0,revisao_necessaria
+PH-007,Acanthospermum hispidum DC.,56,20,56,0,0,0,revisao_necessaria
+PH-008,Ipomoea populina House,39,20,39,0,0,0,revisao_necessaria
+PH-009,Pavonia cancellata (L.) Cav.,44,20,44,0,0,0,revisao_necessaria
+PH-010,Pavonia humifusa A.St.-Hil.,26,20,26,0,0,0,revisao_necessaria
+PH-011,Melissa officinalis L.,29,20,29,0,0,0,revisao_necessaria
+PH-012,Eclipta alba (L.) Hassk.,23,20,23,0,0,0,revisao_necessaria
+PH-013,Euphorbia hirta L.,32,20,32,0,0,0,revisao_necessaria
+PH-014,Richardia grandiflora (Cham. & Schltdl.) Steud.,33,20,33,0,0,0,revisao_necessaria
+PH-016,Sida rhombifolia L.,48,20,48,0,0,0,revisao_necessaria
+PH-017,Distimake aegyptius (L.) A.R.Simões & Staples,37,20,37,0,0,0,revisao_necessaria
+PH-019,Euphorbia peplus L.,39,20,39,0,0,0,revisao_necessaria
+PH-020,Sida cordifolia L.,47,20,47,0,0,0,revisao_necessaria
+PH-021,Sida galheirensis Ulbr.,54,20,54,0,0,0,revisao_necessaria
+PH-022,Herissantia crispa (L.) Brizicky,41,20,41,0,0,0,revisao_necessaria
+PH-023,Waltheria indica L.,40,20,40,0,0,0,revisao_necessaria
+PH-024,Waltheria rotundifolia Schrank,49,20,49,0,0,0,revisao_necessaria
+PH-025,Croton sonderianus Müll.Arg.,24,20,24,0,0,0,revisao_necessaria
+PH-026,Manihot pseudoglaziovii Pax & K.Hoffm.,26,20,26,0,0,0,revisao_necessaria
+PH-027,Solanum americanum Mill.,50,20,50,0,0,0,revisao_necessaria
+PH-028,Senna tora (L.) Roxb.,26,20,26,0,0,0,revisao_necessaria
+PH-029,Solanum viarum Dunal,44,20,44,0,0,0,revisao_necessaria
+PH-030,Solanum aethiopicum L.,35,20,35,0,0,0,revisao_necessaria
+PH-031,Momordica charantia L.,29,20,29,0,0,0,revisao_necessaria
+PH-032,Varronia leucocephala (Moric.) J.S.Mill.,57,20,57,0,0,0,revisao_necessaria
+PH-033,Marsypianthes chamaedrys (Vahl) Kuntze,50,20,50,0,0,0,revisao_necessaria
+PH-036,Boerhaavia diffusa L.,19,18,19,0,0,0,revisao_necessaria
+PH-038,Plantago major L.,40,20,40,0,0,0,revisao_necessaria
+PH-041,Ludwigia leptocarpa (Nutt.) H.Hara,37,20,37,0,0,0,revisao_necessaria
+PH-043,Emilia sonchifolia (L.) DC. ex Wight,33,20,33,0,0,0,revisao_necessaria
+PH-044,Emilia javanica (Burm.fil.) C.B.Rob.,39,20,39,0,0,0,revisao_necessaria
+PH-045,Commelina benghalensis L.,41,20,41,0,0,0,revisao_necessaria
+PH-046,Astraea lobata (L.) Klotzsch,75,20,75,0,0,0,revisao_necessaria
+PH-047,Spermacoce suaveolens (G.Mey.) Kuntze,50,20,50,0,0,0,revisao_necessaria
+PH-048,Tribulus cistoides L.,51,20,51,0,0,0,revisao_necessaria
+PH-050,Lactuca sativa L.,27,20,27,0,0,0,revisao_necessaria
+PH-051,Gossypium herbaceum L.,44,20,44,0,0,0,revisao_necessaria
+PH-052,Solanum tuberosum L.,60,20,60,0,0,0,revisao_necessaria
+PH-053,Ipomoea batatas (L.) Lam.,39,20,39,0,0,0,revisao_necessaria
+PH-054,Brassica oleracea L.,40,20,40,0,0,0,revisao_necessaria
+PH-055,Phaseolus vulgaris L.,35,20,35,0,0,0,revisao_necessaria
+PH-056,Vigna unguiculata (L.) Walp.,45,20,45,0,0,0,revisao_necessaria
+PH-057,Cajanus cajan (L.) Huth,56,20,56,0,0,0,revisao_necessaria
+PH-058,Leucaena leucocephala (Lam.) de Wit,34,20,34,0,0,0,revisao_necessaria
+PH-059,Carica papaya L.,28,20,28,0,0,0,revisao_necessaria
+PH-060,Cucumis anguria L.,53,20,53,0,0,0,revisao_necessaria
+PH-061,Citrullus colocynthis (L.) Schrad.,33,20,33,0,0,0,revisao_necessaria
+PH-062,Citrullus amarus Schrad.,30,14,30,0,0,0,revisao_necessaria
+PH-063,Cucumis melo L.,42,20,42,0,0,0,revisao_necessaria
+PH-064,Capsicum annuum L.,52,20,52,0,0,0,revisao_necessaria
+PH-065,Abelmoschus esculentus (L.) Moench,42,20,42,0,0,0,revisao_necessaria
+PH-066,Rosa multiflora Thunb.,29,20,29,0,0,0,revisao_necessaria
+PH-067,Solanum bonariense L.,28,19,28,0,0,0,revisao_necessaria
+PH-068,Vitis shuttleworthii House,32,20,32,0,0,0,revisao_necessaria
