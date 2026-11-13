@@ -5,12 +5,25 @@ e consulta independente de evidências botânicas de hospedeira.
 """
 
 from typing import Optional
+import sys
+from pathlib import Path
 from fastapi import APIRouter, Depends, File, Form, HTTPException, UploadFile, status
 from sqlalchemy.orm import Session
 from ..database import get_db
 from ..models import Especie
 from ..schemas import IdentificacaoFeaturesIn, IdentificacaoResultadoOut, PredicaoItem
-from Backend.ML.inferencia_especies import engine as ml_engine
+
+# Import robusto do motor de inferência ML suportando execução dentro de Backend/ ou da raiz
+try:
+    from Backend.ML.inferencia_especies import engine as ml_engine
+except ModuleNotFoundError:
+    try:
+        from ML.inferencia_especies import engine as ml_engine
+    except ModuleNotFoundError:
+        _root = Path(__file__).resolve().parents[3]
+        if str(_root) not in sys.path:
+            sys.path.insert(0, str(_root))
+        from Backend.ML.inferencia_especies import engine as ml_engine
 
 router = APIRouter(prefix="/api/identificar", tags=["Identificação de Espécies (ML)"])
 
@@ -120,3 +133,4 @@ async def identificar_por_imagem(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail=f"Falha na inferência de visão computacional: {str(e)}",
         )
+

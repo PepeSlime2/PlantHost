@@ -3,6 +3,17 @@ Aplicação Principal FastAPI - PlantHost AI Backend.
 Integra banco de dados relacional, motor de inferência de ML e APIs REST para o Frontend.
 """
 
+import sys
+from pathlib import Path
+
+# Garante que a raiz do repositório e o diretório Backend estejam no sys.path
+_CURRENT_DIR = Path(__file__).resolve().parent
+_BACKEND_DIR = _CURRENT_DIR.parent
+_ROOT_DIR = _BACKEND_DIR.parent
+for _p in (_ROOT_DIR, _BACKEND_DIR):
+    if str(_p) not in sys.path:
+        sys.path.insert(0, str(_p))
+
 from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
