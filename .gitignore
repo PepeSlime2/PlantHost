@@ -17,6 +17,7 @@ dist/
 .output/
 .nitro/
 .cache/
+.wrangler/
 Frontend/extracted_zip/
 
 # OS / IDE
