@@ -97,7 +97,7 @@ function Processamento() {
               host_status: res.species.host_status,
               host_type: res.host_evidence?.host_type || "Hospedeira comprovada de Bemisia tabaci",
               source: res.host_evidence?.sources || ["Embrapa BPD 55", "Reflora"],
-              image_url: null,
+              image_url: res.species.image_url || null,
             },
             confidence: formatPct(res.confidence),
             ranking: res.ranking.map((r) => ({

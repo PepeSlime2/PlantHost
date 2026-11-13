@@ -51,6 +51,7 @@ export interface IdentificacaoResponse {
     category: string;
     host_status: "registrada" | "sem_registro" | "indisponivel";
     confidence: number;
+    image_url?: string | null;
   };
   confidence: number;
   ranking: {
@@ -61,6 +62,7 @@ export interface IdentificacaoResponse {
     category: string;
     host_status: "registrada" | "sem_registro" | "indisponivel";
     confidence: number;
+    image_url?: string | null;
   }[];
   model: string;
   model_version: string;

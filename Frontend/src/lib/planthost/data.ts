@@ -77,7 +77,7 @@ export const SPECIES: Species[] = [
     host_status: "registrada",
     host_type: "Silvestre",
     source: ["Embrapa", "Flora e Funga do Brasil"],
-    image_url: null,
+    image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/607799915/original.jpg",
   },
   {
     id: "sp-02",
@@ -143,7 +143,7 @@ export const SPECIES: Species[] = [
     host_status: "registrada",
     host_type: "Silvestre",
     source: ["Embrapa", "Flora e Funga do Brasil"],
-    image_url: null,
+    image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/607799915/original.jpg",
   },
   {
     id: "sp-04",

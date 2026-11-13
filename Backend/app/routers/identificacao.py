@@ -51,6 +51,7 @@ def _enrich_prediction_with_db(pred_res: dict, db: Session) -> dict:
         best_species["host_status"] = db_sp.host_status
         best_species["category"] = db_sp.category
         best_species["family"] = db_sp.family
+        best_species["image_url"] = db_sp.image_url
         if db_sp.common_name:
             best_species["common_name"] = db_sp.common_name
 
@@ -63,6 +64,7 @@ def _enrich_prediction_with_db(pred_res: dict, db: Session) -> dict:
             "validation_status": db_sp.validation_status,
         }
     else:
+        best_species["image_url"] = None
         host_evidence = {
             "is_host": True,
             "host_status": "registrada",
@@ -70,6 +72,14 @@ def _enrich_prediction_with_db(pred_res: dict, db: Session) -> dict:
             "sources": ["Embrapa BPD 55"],
             "validation_status": "pendente",
         }
+
+    # Enriquece ranking com imagens do acervo
+    for item in pred_res.get("ranking", []):
+        r_sp = db.query(Especie).filter(Especie.scientific_name.ilike(str(item["scientific_name"]))).first()
+        if r_sp and r_sp.image_url:
+            item["image_url"] = r_sp.image_url
+        else:
+            item["image_url"] = None
 
     pred_res["host_evidence"] = host_evidence
     return pred_res

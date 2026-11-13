@@ -125,6 +125,7 @@ class PredicaoItem(BaseModel):
     category: str
     host_status: str
     confidence: float
+    image_url: Optional[str] = None
 
 
 class IdentificacaoFeaturesIn(BaseModel):

@@ -96,7 +96,7 @@ function Resultado() {
                 host_status: res.species.host_status,
                 host_type: res.host_evidence?.host_type || "Hospedeira comprovada de Bemisia tabaci",
                 source: res.host_evidence?.sources || ["Embrapa BPD 55", "Reflora"],
-                image_url: null,
+                image_url: res.species.image_url || null,
               },
               confidence: formatPct(res.confidence),
               ranking: res.ranking.map((r) => ({
@@ -225,7 +225,31 @@ function Resultado() {
         </Card>
 
         <Card className="shadow-card">
-          <CardContent className="flex flex-col items-center p-7 text-center">
+          <CardContent className="flex flex-col items-center p-6 text-center">
+            {sp.image_url ? (
+              <div className="mb-5 w-full overflow-hidden rounded-xl border border-border bg-black/5 dark:bg-white/5">
+                <img
+                  src={sp.image_url}
+                  alt={sp.scientific_name}
+                  className="h-52 w-full object-cover transition-transform hover:scale-105"
+                  onError={(e) => {
+                    // Fallback se imagem externa falhar
+                    (e.target as HTMLElement).style.display = "none";
+                  }}
+                />
+                <div className="flex items-center justify-between bg-secondary/80 px-3 py-2 text-left text-[11px] text-muted-foreground">
+                  <span className="font-medium text-foreground">Espécime Botânico Documentado</span>
+                  <Badge variant="outline" className="text-[10px]">
+                    Acervo GBIF / Embrapa
+                  </Badge>
+                </div>
+              </div>
+            ) : (
+              <div className="mb-4 grid size-20 place-items-center rounded-2xl bg-primary/10 text-3xl">
+                🌿
+              </div>
+            )}
+
             <p className="text-xs font-medium uppercase tracking-widest text-muted-foreground">
               Confiança da classificação
             </p>
@@ -236,8 +260,8 @@ function Resultado() {
               {prediction.model}
             </Badge>
             <p className="mt-4 flex items-center gap-2 text-xs text-muted-foreground">
-              <Leaf className="size-3.5 text-primary" />
-              Status botânico associado a evidências da Embrapa BPD 55
+              <Leaf className="size-3.5 text-primary shrink-0" />
+              <span>Status botânico associado a evidências da Embrapa BPD 55</span>
             </p>
           </CardContent>
         </Card>
