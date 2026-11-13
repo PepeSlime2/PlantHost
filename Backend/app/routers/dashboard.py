@@ -38,3 +38,4 @@ def obter_estatisticas_dashboard(db: Session = Depends(get_db)):
         "total_validacoes": total_validacoes,
         "modelos_disponiveis": modelos,
     }
+

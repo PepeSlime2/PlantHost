@@ -97,3 +97,4 @@ def resolver_alerta(alerta_id: int, db: Session = Depends(get_db)):
     db.commit()
     db.refresh(alerta)
     return alerta
+

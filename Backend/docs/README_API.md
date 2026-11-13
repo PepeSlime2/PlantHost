@@ -50,3 +50,4 @@ A API do **PlantHost AI** fornece serviços para identificação botânica, infe
 ```bash
 uvicorn Backend.app.main:app --reload --port 8000
 ```
+

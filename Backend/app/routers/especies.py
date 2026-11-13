@@ -171,3 +171,4 @@ def validar_especie_especialista(
     db.refresh(validacao)
 
     return validacao
+

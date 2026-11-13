@@ -123,3 +123,4 @@ class Alerta(Base):
     __table_args__ = (
         Index("idx_alerta_regiao_criticidade", "regiao", "criticidade"),
     )
+

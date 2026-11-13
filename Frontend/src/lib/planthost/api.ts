@@ -212,3 +212,4 @@ export async function fetchAlertas(params?: {
   }
   return res.json();
 }
+
