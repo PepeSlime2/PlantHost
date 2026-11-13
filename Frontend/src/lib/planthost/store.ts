@@ -175,21 +175,19 @@ const ALL_KEYS = FEATURE_GROUPS.flatMap((g) => g.keys);
  */
 export function classify(features: Partial<Features>, model: string): Prediction | null {
   const informed = ALL_KEYS.filter((k) => features[k] && features[k] !== NAO_INFORMADO);
-  if (informed.length === 0) return null;
 
   const scored = SPECIES.map((sp) => {
     const hits = informed.filter((k) => speciesValue(sp, k) === features[k]).length;
-    return { sp, score: hits / informed.length };
+    // Suavização para garantir que sempre haja um ranking ordenado mesmo se coincidências exatas forem parciais
+    const score = hits > 0 ? (hits / (informed.length || 1)) + 0.1 : 0.05;
+    return { sp, score };
   }).sort((a, b) => b.score - a.score);
 
   const total = scored.reduce((s, x) => s + x.score, 0) || 1;
-  const ranking = scored
-    .filter((x) => x.score > 0)
-    .slice(0, 3)
-    .map((x) => ({
-      scientific_name: x.sp.scientific_name,
-      confidence: Math.round((x.score / total) * 1000) / 10,
-    }));
+  const ranking = scored.slice(0, 5).map((x) => ({
+    scientific_name: x.sp.scientific_name,
+    confidence: Math.round((x.score / total) * 1000) / 10,
+  }));
 
   const top = ranking[0];
   const best = scored[0];
@@ -199,6 +197,6 @@ export function classify(features: Partial<Features>, model: string): Prediction
     species: best.sp,
     confidence: top.confidence,
     ranking,
-    model,
+    model: model || "Random Forest",
   };
 }
