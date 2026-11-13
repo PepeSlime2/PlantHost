@@ -17,6 +17,7 @@ dist/
 .output/
 .nitro/
 .cache/
+Frontend/extracted_zip/
 
 # OS / IDE
 .DS_Store
