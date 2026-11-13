@@ -1,16 +1,21 @@
 """
 Módulo de Inferência de Machine Learning Tabular para o PlantHost AI.
-Utiliza classificação supervisionada baseada em características morfológicas e taxonômicas
-com algoritmos de Machine Learning (Random Forest / Decision Tree do scikit-learn).
-Não utiliza VLM/visão: a inferência é estritamente morfológica e botânica.
+Classificação supervisionada baseada em características morfológicas e taxonômicas.
+Com suporte automático a scikit-learn (RandomForestClassifier) e fallback supervisionado puro.
+Não utiliza VLM: a inferência é estritamente morfológica e botânica.
 """
 
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 import numpy as np
 import pandas as pd
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.feature_extraction import DictVectorizer
+
+try:
+    from sklearn.ensemble import RandomForestClassifier
+    from sklearn.feature_extraction import DictVectorizer
+    HAS_SKLEARN = True
+except ImportError:
+    HAS_SKLEARN = False
 
 ML_DIR = Path(__file__).resolve().parent
 CSV_FONTES = ML_DIR / "base_ml_caracteristicas_fontes_adicionais.csv"
@@ -22,10 +27,16 @@ class BotanicalMorphologyMLClassifier:
 
     def __init__(self):
         self.species_db: List[Dict[str, Any]] = []
-        self.vectorizer = DictVectorizer(sparse=False)
-        self.clf = RandomForestClassifier(n_estimators=120, max_depth=15, random_state=42)
         self.classes_: List[str] = []
         self._is_trained = False
+
+        if HAS_SKLEARN:
+            self.vectorizer = DictVectorizer(sparse=False)
+            self.clf = RandomForestClassifier(n_estimators=120, max_depth=15, random_state=42)
+        else:
+            self.vectorizer = None
+            self.clf = None
+
         self._load_and_train()
 
     def _extract_feature_dict(self, record: Dict[str, Any]) -> Dict[str, Any]:
@@ -52,7 +63,7 @@ class BotanicalMorphologyMLClassifier:
         }
 
     def _load_and_train(self):
-        """Carrega base botânica Embrapa/Reflora e treina o RandomForestClassifier."""
+        """Carrega base botânica Embrapa/Reflora e treina o modelo."""
         if not CSV_FONTES.exists():
             raise FileNotFoundError(f"Arquivo não encontrado: {CSV_FONTES}")
 
@@ -88,7 +99,6 @@ class BotanicalMorphologyMLClassifier:
             ref_info = reflora_map.get(sp_id, {})
             life_form = ref_info.get("life_form", "")
 
-            # Atributos morfológicos derivados das diagnoses botânicas
             folha_disp = "Alterna" if idx % 2 == 0 else "Oposta"
             folha_forma = "Cordiforme" if "cordifolia" in sci_name.lower() else ("Oval" if idx % 2 == 0 else "Lanceolada")
             flor_cor = "Amarela" if idx % 3 == 0 else ("Branca" if idx % 3 == 1 else "Roxa")
@@ -103,7 +113,7 @@ class BotanicalMorphologyMLClassifier:
                 "life_form": life_form,
                 "life_cycle": life_cycle,
                 "distribution": distribution,
-                "host_status": "registrada",  # Todas as 68 são hospedeiras confirmadas de mosca-branca na Embrapa BPD 55
+                "host_status": "registrada",
                 "host_type": "Hospedeira comprovada de Bemisia tabaci / Bemisia argentifolii (Mosca-branca)",
                 "source": ["Embrapa BPD 55", "Reflora", "GBIF"],
                 "folha_disposicao": folha_disp,
@@ -112,41 +122,59 @@ class BotanicalMorphologyMLClassifier:
             }
             self.species_db.append(record)
 
-            # Gera amostras com variações morfológicas para treinamento do Random Forest
             feat_dict = self._extract_feature_dict(record)
             for _ in range(4):
                 X_dicts.append(feat_dict)
                 y_labels.append(sci_name)
 
-        # Treina o modelo Random Forest com scikit-learn
-        X_matrix = self.vectorizer.fit_transform(X_dicts)
-        self.clf.fit(X_matrix, y_labels)
-        self.classes_ = list(self.clf.classes_)
+        if HAS_SKLEARN and self.clf is not None and self.vectorizer is not None:
+            X_matrix = self.vectorizer.fit_transform(X_dicts)
+            self.clf.fit(X_matrix, y_labels)
+            self.classes_ = list(self.clf.classes_)
+        else:
+            self.classes_ = sorted(list(set(y_labels)))
+
         self._is_trained = True
 
     def predict_by_features(self, features: Dict[str, Any], top_k: int = 5) -> Dict[str, Any]:
         """
-        Classifica espécie através do RandomForestClassifier treinado sobre atributos morfológicos.
-        Retorna espécie mais provável, probabilidade calculada pelo modelo e ranking ordenado.
+        Classifica espécie através do modelo de Machine Learning morfológico.
         """
         if not self._is_trained:
             raise RuntimeError("Modelo de Machine Learning não inicializado.")
 
-        # Converte features observadas
         feat_dict = self._extract_feature_dict(features)
-        X_test = self.vectorizer.transform([feat_dict])
 
-        # Probabilidades reais do Random Forest
-        probas = self.clf.predict_proba(X_test)[0]
+        if HAS_SKLEARN and self.clf is not None and self.vectorizer is not None:
+            X_test = self.vectorizer.transform([feat_dict])
+            probas = self.clf.predict_proba(X_test)[0]
+            model_name = "RandomForestClassifier (scikit-learn)"
+        else:
+            # Fallback Bayesiano / similaridade ponderada por atributos
+            scores = []
+            for sci_name in self.classes_:
+                sp = next((s for s in self.species_db if s["scientific_name"] == sci_name), None)
+                if not sp:
+                    scores.append(0.01)
+                    continue
+                score = 0.5
+                sp_dict = self._extract_feature_dict(sp)
+                for k, v in feat_dict.items():
+                    if v and v != "desconhecida" and v != "desconhecido":
+                        if sp_dict.get(k) == v or v in sp_dict.get(k, ""):
+                            score += 2.0
+                scores.append(score)
+            arr = np.array(scores, dtype=np.float64)
+            exp_arr = np.exp(arr - np.max(arr))
+            probas = exp_arr / np.sum(exp_arr)
+            model_name = "Morphological Decision Classifier"
 
-        # Índices ordenados decrescentes
         sorted_indices = np.argsort(probas)[::-1]
         top_indices = sorted_indices[:top_k]
 
         ranking = []
         for idx in top_indices:
             sci_name = self.classes_[idx]
-            # Recupera dados da espécie no acervo
             sp_info = next((s for s in self.species_db if s["scientific_name"] == sci_name), None)
             ranking.append({
                 "species_id": sp_info["species_id"] if sp_info else "PH-000",
@@ -166,7 +194,7 @@ class BotanicalMorphologyMLClassifier:
             "species": best,
             "confidence": confidence_val,
             "ranking": ranking,
-            "model": "RandomForestClassifier (scikit-learn)",
+            "model": model_name,
             "model_version": "v2.0-tabular-ml",
             "status": status,
             "input_mode": "caracteristicas",
@@ -179,5 +207,5 @@ class BotanicalMorphologyMLClassifier:
         return None
 
 
-# Instância global reutilizável
+# Instância global
 engine = BotanicalMorphologyMLClassifier()
